@@ -1,0 +1,13 @@
+:root{
+    --vermelho: #950004;
+    --vermelho2: #770003;
+    --vermelho3: #580002;
+    --vinho: #400c0f;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
