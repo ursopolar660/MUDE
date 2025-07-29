@@ -12,4 +12,49 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Bebas Neue', 'Montserrat', serif;
+    overflow-x: hidden;
+}
+body{
+    width: 100svw;
+    background-color: var(--vinho);
+    & .hero{
+        width: auto;
+        height: 50em;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+    & .o-que-e{
+        background-image: url('assets/Sem título-1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: fixed;
+        background-attachment: fixed;
+        background-color: var(--vermelho);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        & h2{
+            padding-block: 1em;
+            font-size: 3.5em;
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            /* margin-bottom: 1em; */
+            letter-spacing: 0.12em;
+        }
+
+        & h4{
+            font-size: 1.5em;
+            color: white;
+            text-align: center;
+            font-weight: 400;
+            letter-spacing: 0.08em;
+            /* width: 80%; */
+            margin-bottom: 1em;
+        }
+    }
 }
