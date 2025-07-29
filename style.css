@@ -107,35 +107,43 @@ body{
         align-items: center;
         justify-content: center;
         width: 100%;
-        & h2{
-            padding-block: 1em;
-            font-size: 3.5em;
-            text-shadow: 2px 1px 1px #eed988;
-            color: #c78f29;
+        & .description{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
-            font-weight: 600;
-            /* margin-bottom: 1em; */
-            letter-spacing: 0.12em;
-        }
-
-        & h4{
-            font-size: 1.8em;
-            color: white;
-            text-align: center;
-            font-weight: 400;
-            letter-spacing: 0.08em;
-            /* width: 80%; */
-            margin-bottom: 1em;
-        }
-        p{
-            text-shadow: 1px 2px 1px black;
-            font-size: 1.2em;
-            color: white;
-            text-align: center;
-            font-weight: 400;
-            letter-spacing: 0.06em;
-            width: 80%;
-            margin-bottom: 1em;
+            padding: 1em;
+            & h2{
+                padding-block: 1em;
+                font-size: 3.5em;
+                text-shadow: 2px 1px 1px #eed988;
+                color: #c78f29;
+                text-align: center;
+                font-weight: 600;
+                /* margin-bottom: 1em; */
+                letter-spacing: 0.12em;
+            }
+    
+            & h4{
+                font-size: 1.8em;
+                color: white;
+                text-align: center;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                /* width: 80%; */
+                margin-bottom: 1em;
+            }
+            p{
+                text-shadow: 1px 2px 1px black;
+                font-size: 1.2em;
+                color: white;
+                text-align: center;
+                font-weight: 400;
+                letter-spacing: 0.06em;
+                width: 80%;
+                margin-bottom: 1em;
+            }
         }
     }
     & .para-quem{
