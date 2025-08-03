@@ -1,9 +1,11 @@
 @media screen and (max-width: 768px) {
     body {
         & .hero{
-            height: 100%;
+            height: 100svh;
             & img{
                 content: url('assets/mobile.webp');
+                height: 85%;
+                align-self: center;
             }
         }
         & .o-que-e{
@@ -15,15 +17,43 @@
             }
         }
         & .creator{
+            height: 100svh;
             & .description{
+                height: 100svh;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                background-color: rgba(0, 0, 0, 0.4);
+                background-color: rgba(255, 255, 255, 0.6);
                 align-items: center;
                 text-align: center;
+
+                & p{
+                    text-shadow: 1px 1px 1px white;
+                }
             }
         }
+
+        & .para-quem{
+            & p{
+                font-size: 1.2em;
+                padding: 0.5em 1em;
+                margin: 0.5em;
+                width: 90%;
+                height: 2.5em;
+                overflow: visible;
+            white-space: normal;
+            word-break: break-word;
+            }
+            & span{
+                padding: 0.2em;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                /* background-color: var(--vermelho2); */
+                color: var(--vermelho2);
+            }
+        }
+
         & .encontrar{
             & a{
                 width: 100%;
