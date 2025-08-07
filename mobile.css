@@ -190,5 +190,12 @@
                 }
             }
         }
+        & .footer{
+            & img{
+                content: url('assets/footer-mobile.webp');
+                width: 100%;
+                height: auto;
+            }
+        }
     }
 }
