@@ -99,7 +99,70 @@
                 text-align: center;
             }
         }
+
+        & .receber{
+            
+            & a{
+                width: 100%;
+                font-size: 1.5em;
+                padding: 0.5em 1em;
+                margin: 0.5em;
+                text-align: center;
+            }
+        }
+
+        & .para{
+            & .card{
+                width: 100%;
+                height: auto;
+                padding: 0.5em 1em;
+                margin: 0.5em;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+            }
+            & .desc{
+                width: 100%;
+                padding: 0.5em 1em;
+                margin: 0.5em;
+                text-align: center;
+            }
+
+            & a{
+                width: 100%;
+                font-size: 1.5em;
+                padding: 0.5em 1em;
+                margin: 0.5em;
+                text-align: center;
+            }
+
+        }
+
+        & .depoimentos{
+            
+
+            & .video{
+                width: 100%;
+                height: auto;
+                margin-bottom: 1em;
+            }
+        }
+
         & .onde{
+
+            & .local{
+                width: 100%;
+                height: auto;
+                display: flex;
+                padding: 0.6em;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: #c78f29;
+            }
+
             & p{
                 font-size: 1.5em;
                 /* padding: 0.5em 1em; */
