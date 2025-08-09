@@ -4,7 +4,8 @@
             height: 100svh;
             & img{
                 content: url('assets/mobile.webp');
-                height: 85%;
+                height: 75%;
+                width: 100%;
                 align-self: center;
             }
         }
