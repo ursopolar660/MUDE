@@ -619,5 +619,19 @@ body{
         padding-top: 1em;
        
     }
+    .dev{
+        background-color: white;
+        width: 100%;
+        padding: 1em;
+        text-align: center;
+        font-size: 1.5em;
+        letter-spacing: 0.05em;
+
+        & a{
+            color: #c78f29;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    }
 
 }

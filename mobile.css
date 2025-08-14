@@ -198,5 +198,8 @@
                 height: auto;
             }
         }
+        & .dev{
+            font-size: 1em;
+        }
     }
 }
